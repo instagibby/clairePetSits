@@ -1,0 +1,280 @@
+
+html {
+  min-height: 100vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  background-color: #F6F6F6;
+  min-height: 100vh;
+  height: 100%;
+  font: 1.1em 'Roboto', sans-serif;
+}
+
+div.navbar-collapse, div.navbar-nav {
+  padding-bottom: 0;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+#formcontainer {
+  width: 500px;
+  float: right;
+  margin: 25px;
+}
+
+.noshadow:hover {
+  box-shadow: none;
+}
+div.container {
+  padding-bottom: 0;
+  height: 100%;
+
+}
+body > .container {
+  width: 80%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  margin: auto;
+  min-height: 100vh;
+  margin-bottom: 0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .14), 0 2px 1px -1px rgba(0, 0, 0, .12);
+}
+
+p {
+  font-size: 1.7em;
+  padding-top: 15px;
+  margin: auto;
+}
+
+h1 {
+  color: #087c90;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+/* FAQ PAGE */
+.question {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.answer {
+  font-size: 1.2em;
+  padding-bottom: 1.5em
+}
+
+
+
+
+.cost {
+  padding: 5px 0;
+}
+
+form {
+  background-color: #E8C17A;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+
+
+form {
+  text-align: left;
+  margin: auto;
+  border: 2px solid #087c90;
+  border-collapse: collapse;
+  color: #087c90;
+  font-weight: bold;
+  float: left;
+}
+
+
+/* Images */
+
+img.shadowed {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+img.boxshadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+}
+
+
+
+
+
+.facebook {
+  margin-top: 50px;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  max-width: 100px;
+}
+
+.facebook:hover {
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  box-shadow: none;
+}
+
+iframe {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .4);
+}
+
+.rover {
+  display: inline-block;
+  -webkit-filter: drop-shadow(2px 2px 2px #222);
+  filter: drop-shadow(2px 2px 2px #222);
+  padding-bottom: 2em;
+
+}
+
+.rover:hover {
+  box-shadow: none;
+  -webkit-filter: drop-shadow(3px 3px 3px #222);
+  filter: drop-shadow(3px 3px 3px #222);
+}
+
+div.carousel-item {
+  max-width: 70%;
+  max-height: 650px;
+}
+
+@media (max-width: 576px) {
+  body > .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  div {
+    padding-bottom: 10px;
+  }
+  div > p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-sm-12 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+}
+
+@media (min-width: 576px) {
+  body > .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  div {
+    padding-bottom: 10px;
+  }
+  div > p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .col-sm-12 {
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  img.img-fluid {
+    padding:0;
+  }
+ }
+
+
+@media (min-width: 768px) {
+  body > .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  div {
+    padding-bottom: 10px;
+  }
+  div > p {
+    padding-left: 0;
+    padding-right: 0;
+  }
+ }
+
+
+@media (min-width: 992px) {
+  body > .container {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  div {
+    padding-bottom: 10px;
+  }
+  div > p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ }
+
+
+@media (min-width: 1200px) {
+  body > .container {
+    width: 80%;
+    max-width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  div {
+    padding-bottom: 10px;
+  }
+ }
+
+@media (max-width: 1441px) {
+  .iframefix {
+    width: 95%;
+    height: auto;
+  }
+
+}
+
+ @media (max-width: 991px) {
+   a.facebook.img-fluid {
+     width: 75%;
+     height: auto;
+   }
+   img.img-fluid {
+     padding: 0;
+   }
+
+ }
+
+ @media (max-width: 375px) {
+   a.facebook > img {
+     width: 90%;
+     height: auto;
+   }
+   a.rover > img {
+     width: 90%;
+     height: auto;
+   }
+
+ }
